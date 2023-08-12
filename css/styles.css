@@ -45,8 +45,8 @@ a {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-.page-nav .menu-nav:hover,
-.page-nav .menu-nav:focus {
+.menu-nav:hover,
+.menu-nav:focus {
   color: #404bbf;
 }
 .address {
@@ -73,9 +73,9 @@ a {
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
-button:hover,
-button:focus {
-  color: #404bbf;
+.button-text:hover,
+.button-text:focus {
+  background-color: #404bbf;
 }
 .button-text {
   color: var(--white, #fff);
@@ -121,6 +121,7 @@ button:focus {
 }
 .list-three {
   text-align: center;
+  background-color: #ffffff;
 }
 
 /* footer */
