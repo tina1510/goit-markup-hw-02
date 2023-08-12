@@ -60,6 +60,10 @@ a {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
+.nav-address:hover,
+.nav-address:focus {
+  color: #404bbf;
+}
 /* section 1 */
 .section-one {
   background-color: #2e2f42;
